@@ -20,6 +20,7 @@ void Counter(string s,string q,int &counter1,int &counter2,int &counter3,int &co
     cout<<"кількість закритих дужок:"<<counter2<<endl;
     cout<<"кількість інших відкритих символів:"<<counter3<<endl;
     cout<<"кількість інших закритих символів:"<<counter4<<endl;
+    file.close();
 }
 int main() {
     ofstream test1("test1.txt");
